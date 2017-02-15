@@ -6,8 +6,19 @@ class Header extends Component {
 		return (
            <nav className="nav navbar-dafault">
 
-           </nav
-
+           </nav className="nav navbar-default">
+              <div className="navbar-header">
+              		<a className="navbar-brand">Markbin</a>
+              </div>
+              <ul className="nav navbar-nav">
+               <li>
+               	  	<a>Sign up</a>
+               </li>
+               <li>
+               		<a>Create Bin</a>
+               </li>
+               </ul>
+            </nav>
 			);
 	}
 }
