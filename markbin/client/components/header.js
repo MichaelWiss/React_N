@@ -8,6 +8,7 @@ class Header extends Component {
 
 		Meteor.call('bins.insert');
 	}
+	
 	render() {
 		return (
            <nav className="nav navbar-dafault">
