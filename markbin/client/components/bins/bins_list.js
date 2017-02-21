@@ -10,7 +10,7 @@ class BinsList extends Component {
 	renderList() {
 		return this.props.bins.map(bin => {
 			return (
-				<li className="list_group-item" key={bin._id}>
+				<li className="list-group-item" key={bin._id}>
 			      Bin {bin._id}
 			      	<span className="pull-right">
 				        <button
