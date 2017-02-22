@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 
-class BinShare extends Component {
+class BinsShare extends Component {
 	render() {
       return (
       	<footer className="bin-share">
-      	BinShare
+      		BinsShare
       	</footer>
       );
 	}
 }
 
-export default BinShare;
+export default BinsShare;
