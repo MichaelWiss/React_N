@@ -5,4 +5,11 @@ Meteor.startup(() => {
   Meteor.publish('bins', function() {
      return Bins.find({ ownerId: this.userId });
   });
+
+  Meteor.publish('sharedBins', function() {
+     const user = Meteor.users.findOne(this.userId);
+
+     
+  });
 });
+
