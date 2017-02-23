@@ -15,3 +15,7 @@
     align-items: center;
     margin: 10px;
 }
+
+.bins-share .input-group {
+	width: 30%;
+}
